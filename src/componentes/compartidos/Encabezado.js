@@ -1,6 +1,6 @@
-function Encabezamiento() {
+function Encabezado() {
   return (
-    <div>
+    <div className="bg-black h-xl">
       <div>
         Encabezamiento
         <svg xmlns="http://www.w3.org/2000/svg" width="100" height="100">
