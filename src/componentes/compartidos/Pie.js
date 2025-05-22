@@ -1,8 +1,8 @@
 function Pie() {
   return (
-  <footer className="text-red-500">
-    <small>Desarrollo y diseñado por Alberto Cabrera</small>
-  </footer>
+    <footer className="text-red-500">
+      Desarrollo y diseñado por Alberto Cabrera
+    </footer>
   );
 }
 
