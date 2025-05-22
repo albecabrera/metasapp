@@ -1,6 +1,7 @@
+import './pie.css';
 function Pie() {
   return (
-    <footer className="text-red-500">Desarrollo y diseñado por Alberto Cabrera</footer>
+    <footer className="pie">Desarrollo y diseñado por Alberto Cabrera</footer>
   );
 }
 

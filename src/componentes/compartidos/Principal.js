@@ -1,14 +1,17 @@
+import './Principal.css';
+import Vinculo from './Vinculo';
 function Principal({ children }) {
     return (
-    <>
-    <sidenav>
+    <div className="Principal">
+    <aside className="aside">
         <a href="/lista">Lista</a>
         <a href="/crear">crear</a>
-    </sidenav>
-    <main>
+    </aside>
+    <Vinculo />
+    <main className="main">
      {children}
     </main>
-    </>
+    </div>
   );
 }
 

@@ -1,0 +1,9 @@
+.Principal {
+  height: calc(100vh - theme('height.principal'));
+}
+.aside {
+  height: calc(100vh - theme('height.aside'));
+}
+.main {
+  height: calc(100vh - theme('height.main'));
+}
